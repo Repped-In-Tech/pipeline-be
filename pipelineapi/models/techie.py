@@ -15,3 +15,4 @@ class Techie(models.Model):
     resume_url = models.URLField(max_length=200)
     job_type = models.CharField(max_length=50)
     experience_level = models.CharField(max_length=50)
+    open_for_work = models.BooleanField(default=True)

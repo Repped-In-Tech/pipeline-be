@@ -11,6 +11,9 @@ pylint = "*"
 django-cors-headers = "*"
 pylint-django = "*"
 uuid = "*"
+coreapi = "*"
+pygments = "*"
+markdown = "*"
 
 [dev-packages]
 
